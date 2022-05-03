@@ -1,6 +1,6 @@
-import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Accordion } from './components/Accordion';
 
 function App() {
   return (
@@ -18,6 +18,8 @@ function App() {
         >
           Learn React
         </a>
+
+        <Accordion title="Accordion Tittle">This is the content</Accordion>
       </header>
     </div>
   );
